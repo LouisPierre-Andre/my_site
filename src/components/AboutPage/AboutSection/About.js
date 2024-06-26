@@ -18,7 +18,7 @@ function About() {
         <div id="About" className='About_page_container'>
             <div className='image_container'>
                 <div className='image_border'>
-                    <img className='about_img_profil' src={ABOUT_IMG} />
+                    <img className='about_img_profil' src={ABOUT_IMG} alt='This is a profil picture'/>
                 </div>
             </div>
             <div className='about_info_container'>
@@ -43,10 +43,10 @@ function About() {
                 <div className='about_button_section'>
                     <a href={Cv} download><button className='download_cv'>Download CV</button></a>
                     <div className='social_media_link'>
-                        <a target="_blank" href='https://www.linkedin.com/in/pierre-andr%C3%A9-louis-3a64a6279/'><img className="fiverr_logo" src={LINKEDIN_LOGO} /></a>
-                        <a target="_blank" href="https://www.fiverr.com/webdeveloper_pr" > <img className="fiverr_logo" src={FIVER_LOGO} /></a>
-                        <a target="_blank" href='https://www.upwork.com/freelancers/~017c6fdbed2e590223' ><img className="upwork_logo" src={UPWORK_LOGO} /></a>
-                        <a target="_blank" href='https://wa.me/50946731710' ><img className="fiverr_logo" src={WHATSAPP_LOGO} /></a>
+                        <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/pierre-andr%C3%A9-louis-3a64a6279/'><img alt='this is a media icon' className="fiverr_logo" src={LINKEDIN_LOGO} /></a>
+                        <a target="_blank" rel="noreferrer" href="https://www.fiverr.com/webdeveloper_pr" > <img alt='this is a media icon' className="fiverr_logo" src={FIVER_LOGO} /></a>
+                        <a target="_blank" rel="noreferrer" href='https://www.upwork.com/freelancers/~017c6fdbed2e590223' ><img alt='this is a media icon' className="upwork_logo" src={UPWORK_LOGO} /></a>
+                        <a target="_blank" rel="noreferrer" href='https://wa.me/50946731710' ><img alt='this is a media icon' className="fiverr_logo" src={WHATSAPP_LOGO} /></a>
                     </div>
                 </div>
 

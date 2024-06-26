@@ -1,9 +1,9 @@
 import React from 'react'
-import HeroAbout from './Hero_about/HeroAbout'
+import HeroAbout from './HeroAbout/HeroAbout'
 import HERO_IMG from './Images/about.jpg'
-import AboutSection from './About_section/About'
-import Skills from './Skills_section/Skills'
-import Service from './Service_section/Services'
+import AboutSection from './AboutSection/About'
+import Skills from './SkillsSection/Skills'
+import Service from './ServiceSection/Services'
 
 function About() {
     return (

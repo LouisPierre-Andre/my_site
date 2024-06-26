@@ -1,7 +1,7 @@
 import React from 'react'
-import HeroAbout from '../About_page/Hero_about/HeroAbout'
+import HeroAbout from '../AboutPage/HeroAbout/HeroAbout'
 import HERO_CONTACT from './Images/contact_hero2.jpg'
-import Contact from '../Home_page/Contact/Contact5'
+import Contact from '../HomePage/Contact/Contact5'
 import "./ContactPage.css"
 
 
