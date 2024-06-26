@@ -1,16 +1,17 @@
 backend:
   name: git-gateway
-  branch: main
-media_folder: "public/img"
+  branch: main # Utilise la branche principale de ton dépôt
+
+media_folder: "static/img" # Emplacement où les images seront stockées
 public_folder: "/img"
+
 collections:
   - name: "blog"
     label: "Blog"
-    folder: "_posts"
+    folder: "posts"
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Featured Image", name: "thumbnail", widget: "image" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Titre", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Contenu", name: "body", widget: "markdown" }

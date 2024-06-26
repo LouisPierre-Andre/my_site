@@ -1,41 +1,16 @@
-<!doctype html>
-<html>
+
+<!DOCTYPE html>
+<html lang="fr">
 
     <head>
-        <meta charset="utf-8">
-        <title>Content Manager</title>
-        <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Admin</title>
     </head>
 
     <body>
-        <script>
-            window.CMS_MANUAL_INIT = true;
-            CMS.init({
-                config: {
-                    backend: {
-                        name: 'git-gateway',
-                        branch: 'main',
-                    },
-                    media_folder: 'public/img',
-                    public_folder: '/img',
-                    collections: [
-                        {
-                            name: 'blog',
-                            label: 'Blog',
-                            folder: '_posts',
-                            create: true,
-                            slug: '{{year}}-{{month}}-{{day}}-{{slug}}',
-                            fields: [
-                                { label: 'Title', name: 'title', widget: 'string' },
-                                { label: 'Publish Date', name: 'date', widget: 'datetime' },
-                                { label: 'Featured Image', name: 'thumbnail', widget: 'image' },
-                                { label: 'Body', name: 'body', widget: 'markdown' },
-                            ],
-                        },
-                    ],
-                }
-            });
-        </script>
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+        <script src="https://unpkg.com/netlify-cms@^2.10.0/dist/netlify-cms.js"></script>
     </body>
 
 </html>
