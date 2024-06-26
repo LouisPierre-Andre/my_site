@@ -2,9 +2,9 @@ backend:
   name: git-gateway
   branch: main # Utilise la branche principale de ton dépôt
 
-media_folder: "static/img" # Emplacement où les images seront stockées
-public_folder: "/img"
-
+media_folder: "static/media" # Emplacement où les images seront stockées
+public_folder: "/media"
+  
 collections:
   - name: "blog"
     label: "Blog"
@@ -15,3 +15,26 @@ collections:
       - { label: "Titre", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Contenu", name: "body", widget: "markdown" }
+
+
+
+
+
+  # - name: "hero_content"  # Nom de votre collection
+  #   label: "Hero Content"  # Label visible dans l'interface CMS
+  #   folder: "src/components/hero"  # Chemin vers le dossier contenant hero.js
+  #   create: true  # Option pour créer de nouveaux éléments dans cette collection
+  #   fields:  # Définition des champs éditables dans le CMS
+  #     - { name: "title", label: "Title", widget: "string" }  # Champ pour modifier le titre h1
+  #     - { name: "subtitle", label: "Subtitle", widget: "string" }  # Champ pour modifier le sous-titre
+
+  - name: 'homepage'  # Nom de la collection
+    label: 'Homepage'  # Étiquette affichée dans l'interface de Netlify CMS
+    folder: 'src/components/HomePage/Hero2'  # Chemin vers le dossier contenant vos fichiers de la homepage
+    create: true
+    fields:
+      - { name: 'title', label: 'Title', widget: 'string' }
+      - { name: 'hero', label: 'Hero', widget: 'object', fields: [
+          { name: 'heroTitle', label: 'Hero Title', widget: 'string' },
+          { name: 'heroSubtitle', label: 'Hero Subtitle', widget: 'string' }
+        ]}

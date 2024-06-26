@@ -14,7 +14,7 @@ import WHATSAPP_LOGO from './Images/whatsapp_logo.png'
 import Cv from './Documents/CV2.pdf'
 import { Link } from 'react-router-dom'
 
-function Hero2() {
+function Hero2({ heroTitle, heroSubtitle }) {
     const handleClick = () => {
         window.scrollTo({
             top: 0,
@@ -34,8 +34,9 @@ function Hero2() {
                         </div>
 
 
-                        <h1>Pierre-Andre Louis</h1>
-                        <h3>Développeur Web Front-End</h3>
+                        {/* <h1>Pierre-Andre Louis</h1> */}
+                        <h1>{heroTitle}</h1>
+                        <h3>{heroSubtitle}</h3>
                         <p>Je crée des sites web personnalisés qui permettent à mes clients de présenter leur profil, leur portfolio ou leurs services de manière professionnelle.</p>
                         <div className='btn_section'>
                             <Link to="/Contact" onClick={() => { handleClick() }}>
