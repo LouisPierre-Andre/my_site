@@ -129,16 +129,7 @@ function Portfolio({ classs }) {
                             <h3>Service de Restaurant</h3>
                             <a target='blank' href='https://louispierre-andre.github.io/Restaurant/'> <button>Visite</button></a>
                         </div>
-           
-                        {/* <div>
-                            <a target='blank' href='https://LouisPierre-Andre.github.io/ecommerce-web'>
-                                <div className='img_box'>
-                                    <img src={ecommerce} alt='This is an image of my project' />
-                                </div>
-                            </a>
-                            <h3>Site e-commerce</h3>
-                            <a target='blank' href='https://LouisPierre-Andre.github.io/ecommerce-web'> <button>Visite</button></a>
-                        </div> */}
+      
                   
 
 
