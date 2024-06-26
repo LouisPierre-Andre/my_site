@@ -5,7 +5,7 @@ import "./App.css"
 import About from './components/About_page/About';
 import Navbar from './components/Navbar/NavBar1'
 import Portfolio from './components/Portfolio/Portfolio';
-import Contact_page from './components/Contact_page/Contact_page';
+import Contact_page from './components/Contact_page/ContactPage';
 import Footer1 from './components/Footer1/Footer1'
 
 
@@ -33,7 +33,6 @@ function App() {
       <Footer1 />
 
 
-      <h1>Welcom to website</h1>
 
 
 

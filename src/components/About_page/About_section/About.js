@@ -1,15 +1,15 @@
 import React from 'react'
-import "./About_page.css"
+import "./AboutPage.css"
 // import about_img from "./Images/profil_picture_2.png"
-import about_img from "./Images/Profil Img.png"
+import ABOUT_IMG from "./Images/Profil_Img.png"
 // import fiverr_logo from "./Images/fiverr.png"
 // import upwork_logo from "./Images/upwork.png"
-import cv from "./Documents/CV2.pdf"
+import Cv from "./Documents/CV2.pdf"
 
-import upwork_logo from './Images/upwork_logo.png'
-import fiver_logo from './Images/fiver_logo.png'
-import linkedin_logo from './Images/linkedin_logo.png'
-import whatsapp_logo from './Images/whatsapp_logo.png'
+import UPWORK_LOGO from './Images/upwork_logo.png'
+import FIVER_LOGO from './Images/fiver_logo.png'
+import LINKEDIN_LOGO from './Images/linkedin_logo.png'
+import WHATSAPP_LOGO from './Images/whatsapp_logo.png'
 
 
 
@@ -18,7 +18,7 @@ function About() {
         <div id="About" className='About_page_container'>
             <div className='image_container'>
                 <div className='image_border'>
-                    <img className='about_img_profil' src={about_img} />
+                    <img className='about_img_profil' src={ABOUT_IMG} />
                 </div>
             </div>
             <div className='about_info_container'>
@@ -41,12 +41,12 @@ function About() {
                     développer mes compétences tout en facilitant leurs améliorations.</p>
 
                 <div className='about_button_section'>
-                    <a href={cv} download><button className='download_cv'>Download CV</button></a>
+                    <a href={Cv} download><button className='download_cv'>Download CV</button></a>
                     <div className='social_media_link'>
-                        <a target="_blank" href='https://www.linkedin.com/in/pierre-andr%C3%A9-louis-3a64a6279/'><img className="fiverr_logo" src={linkedin_logo} /></a>
-                        <a target="_blank" href="https://www.fiverr.com/webdeveloper_pr" > <img className="fiverr_logo" src={fiver_logo} /></a>
-                        <a target="_blank" href='https://www.upwork.com/freelancers/~017c6fdbed2e590223' ><img className="upwork_logo" src={upwork_logo} /></a>
-                        <a target="_blank" href='https://wa.me/50946731710' ><img className="fiverr_logo" src={whatsapp_logo} /></a>
+                        <a target="_blank" href='https://www.linkedin.com/in/pierre-andr%C3%A9-louis-3a64a6279/'><img className="fiverr_logo" src={LINKEDIN_LOGO} /></a>
+                        <a target="_blank" href="https://www.fiverr.com/webdeveloper_pr" > <img className="fiverr_logo" src={FIVER_LOGO} /></a>
+                        <a target="_blank" href='https://www.upwork.com/freelancers/~017c6fdbed2e590223' ><img className="upwork_logo" src={UPWORK_LOGO} /></a>
+                        <a target="_blank" href='https://wa.me/50946731710' ><img className="fiverr_logo" src={WHATSAPP_LOGO} /></a>
                     </div>
                 </div>
 

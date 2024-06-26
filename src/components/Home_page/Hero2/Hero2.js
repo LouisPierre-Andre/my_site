@@ -1,17 +1,17 @@
 import React from 'react'
 import './Hero2.css'
-import hero_bg from './Images/hero.png'
+import HERO_BG from './Images/hero.png'
 // import mobile_img from './Images/profil_picture_2.png'
-import mobile_img from './Images/Profil Img.png'
+import MOBILE_IMG from './Images/Profil_Img.png'
 
 
-import upwork_logo from './Images/upwork_logo.png'
-import fiver_logo from './Images/fiver_logo.png'
-import linkedin_logo from './Images/linkedin_logo.png'
-import whatsapp_logo from './Images/whatsapp_logo.png'
+import UPWORK_LOGO from './Images/upwork_logo.png'
+import FIVER_LOGO from './Images/fiver_logo.png'
+import LINKEDIN_LOGO from './Images/linkedin_logo.png'
+import WHATSAPP_LOGO from './Images/whatsapp_logo.png'
 
 
-import cv from './Documents/CV2.pdf'
+import Cv from './Documents/CV2.pdf'
 import { Link } from 'react-router-dom'
 
 function Hero2() {
@@ -29,7 +29,7 @@ function Hero2() {
                     <div className='hero'>
                         <div className='mobile_hero_img'>
                             <div>
-                                <img src={mobile_img} alt="this is a hero image" />
+                                <img src={MOBILE_IMG} alt="this is a hero image" />
                             </div>
                         </div>
 
@@ -41,7 +41,7 @@ function Hero2() {
                             <Link to="/Contact" onClick={() => { handleClick() }}>
                                 <button>Contacte-moi</button>
                             </Link>
-                            <a href={cv} download>
+                            <a href={Cv} download>
                                 <button className='down_cv'>Télécharger CV</button>
                             </a>
                         </div>
@@ -64,10 +64,10 @@ function Hero2() {
                                 </div>
                             </div>
                             <div>
-                                <a target="_blank" href='https://www.linkedin.com/in/pierre-andr%C3%A9-louis-3a64a6279/'><img className="fiverr_logo" src={linkedin_logo} /></a>
-                                <a target="_blank" href="https://www.fiverr.com/webdeveloper_pr" > <img className="fiverr_logo" src={fiver_logo} /></a>
-                                <a target="_blank" href='https://www.upwork.com/freelancers/~017c6fdbed2e590223' ><img className="upwork_logo" src={upwork_logo} /></a>
-                                <a target="_blank" href='https://wa.me/50946731710' ><img className="fiverr_logo" src={whatsapp_logo} /></a>
+                                <a target="_blank" href='https://www.linkedin.com/in/pierre-andr%C3%A9-louis-3a64a6279/'><img className="fiverr_logo" src={LINKEDIN_LOGO} /></a>
+                                <a target="_blank" href="https://www.fiverr.com/webdeveloper_pr" > <img className="fiverr_logo" src={FIVER_LOGO} /></a>
+                                <a target="_blank" href='https://www.upwork.com/freelancers/~017c6fdbed2e590223' ><img className="upwork_logo" src={UPWORK_LOGO} /></a>
+                                <a target="_blank" href='https://wa.me/50946731710' ><img className="fiverr_logo" src={WHATSAPP_LOGO} /></a>
                             </div>
                         </div>
                     </div>
@@ -76,7 +76,7 @@ function Hero2() {
                 <div className='rotate_bg'>
                     <div className='image_box'>
                         <div className='image'>
-                            <img src={hero_bg} alt='This is the hero background' />
+                            <img src={HERO_BG} alt='This is the hero background' />
                             <div className='hero_filter'></div>
                         </div>
                     </div>

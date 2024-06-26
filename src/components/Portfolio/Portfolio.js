@@ -1,13 +1,13 @@
 import React from 'react'
-import Hero_about from '../About_page/Hero_about/Hero_about'
-import hero_portfolio from './Images/bg (3).jpg'
-import Portfolio_section from '../Home_page/Portfolio/Portfolio'
+import HeroAbout from '../About_page/Hero_about/HeroAbout'
+import HERO_PORTFOLIO from './Images/bg (3).jpg'
+import PortfolioSection from '../Home_page/Portfolio/Portfolio'
 
 function Portfolio() {
   return (
     <div>
-      <Hero_about title="Mon Portfolio" hero_img={hero_portfolio} />
-      <Portfolio_section classs = "portfolio"/>
+      <HeroAbout title="Mon Portfolio" hero_img={HERO_PORTFOLIO} />
+      <PortfolioSection classs="portfolio" />
 
     </div>
   )

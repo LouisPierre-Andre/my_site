@@ -1,5 +1,5 @@
 import React from 'react';
-import "./Service_2_Process.css"
+import "./Service2Process.css"
 
 function Service_Process() {
     return (

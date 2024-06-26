@@ -2,9 +2,9 @@ import React from 'react'
 import './About3.css'
 import { Link } from 'react-router-dom'
 
-// import about_img from './images/profil_pic.png';
-// import about_img from './images/profil picture.png';
-import about_img from './images/Profil Img.png';
+// import AboutImage from './images/profil_pic.png';
+// import AboutImage from './images/profil picture.png';
+import AboutImage from './images/Profil_Img.png';
 
 
 
@@ -34,7 +34,7 @@ function About3() {
               <div className='img_design'></div>
               <div className='img_design2'></div>
               <div className='img_box2'>
-                <img src={about_img} alt='this is a profil image' />
+                <img src={AboutImage} alt='this is a profil image' />
               </div>
             </div>
 

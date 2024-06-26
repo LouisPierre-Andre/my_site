@@ -2,13 +2,13 @@ import React from 'react'
 import './Portfolio4.css'
 import { Link } from 'react-router-dom'
 
-import website1 from "./images/website1.PNG"
-import website2 from "./images/website2.PNG"
-import website3 from "./images/website3.PNG"
-import website4 from './images/website4.PNG'
-import bg_portfolio1 from "./images/hotel1.png"
-import bg_portfolio4 from "./images/transport.png"
-import bg_portfolio5 from './images/quizeApp.png'
+import WEBSITE1 from "./images/website1.PNG"
+import WEBSITE2 from "./images/website2.PNG"
+import WEBSITE3 from "./images/website3.PNG"
+import WEBSITE4 from './images/website4.PNG'
+import BG_PORTFOLIO1 from "./images/hotel1.png"
+import BG_PORTFOLIO2 from "./images/transport.png"
+import BG_PORTFOLIO3 from './images/quizeApp.png'
 
 
 
@@ -41,7 +41,7 @@ function Portfolio4() {
                     {/* <div className='portfolio1'>
                         <a target='blank' href='https://louispierre-andre.github.io/Hotel/'>
                             <div className='img_box'>
-                                <img src={bg_portfolio1} alt='this is a porfolio image' />
+                                <img src={BG_PORTFOLIO1} alt='this is a porfolio image' />
                             </div>
                         </a>
                         <a target='blank' href='https://louispierre-andre.github.io/Hotel/'>
@@ -62,7 +62,7 @@ function Portfolio4() {
                     <div className='portfolio1'>
                         <a target='blank' href='https://louispierre-andre.github.io/portfolio2/'>
                             <div className='img_box'>
-                                <img src={website2} alt='this is a porfolio image' />
+                                <img src={WEBSITE2} alt='this is a porfolio image' />
                             </div>
                         </a>
                         <a target='blank' href='https://louispierre-andre.github.io/portfolio2/'>
@@ -77,7 +77,7 @@ function Portfolio4() {
                     <div className='portfolio1'>
                         <a target='blank' href='https://louispierre-andre.github.io/portfolio3/'>
                             <div className='img_box'>
-                                <img src={website3} alt='this is a porfolio image' />
+                                <img src={WEBSITE3} alt='this is a porfolio image' />
                             </div>
                         </a>
                         <a target='blank' href='https://louispierre-andre.github.io/portfolio3/'>
@@ -94,7 +94,7 @@ function Portfolio4() {
                     <div className='portfolio1'>
                         <a target='blank' href='https://louispierre-andre.github.io/portfolio4/'>
                             <div className='img_box'>
-                                <img src={website4} alt='this is a porfolio image' />
+                                <img src={WEBSITE4} alt='this is a porfolio image' />
                             </div>
                         </a>
                         <a target='blank' href='https://louispierre-andre.github.io/portfolio4/'>
@@ -110,7 +110,7 @@ function Portfolio4() {
                     <div className='portfolio1'>
                         <a target='blank' href='https://louispierre-andre.github.io/portfolio1/'>
                             <div className='img_box'>
-                                <img src={website1} alt='this is a porfolio image' />
+                                <img src={WEBSITE1} alt='this is a porfolio image' />
                             </div>
                         </a>
                         <a target='blank' href='https://louispierre-andre.github.io/portfolio1/'>
@@ -125,7 +125,7 @@ function Portfolio4() {
                     <div className='portfolio1'>
                         <a target='blank' href='https://louispierre-andre.github.io/Hotel/'>
                             <div className='img_box'>
-                                <img src={bg_portfolio1} alt='this is a porfolio image' />
+                                <img src={BG_PORTFOLIO1} alt='this is a porfolio image' />
                             </div>
                         </a>
                         <a target='blank' href='https://louispierre-andre.github.io/Hotel/'>
@@ -144,7 +144,7 @@ function Portfolio4() {
                     <div className='portfolio1'>
                         <a target='blank' href='https://louispierre-andre.github.io/Transport/'>
                             <div className='img_box'>
-                                <img src={bg_portfolio4} alt='this is a porfolio image' />
+                                <img src={BG_PORTFOLIO2} alt='this is a porfolio image' />
                             </div>
                         </a>
                         <a target='blank' href='https://louispierre-andre.github.io/Transport/'>
@@ -162,7 +162,7 @@ function Portfolio4() {
                     <div className='portfolio1'>
                         <a target='blank' href='https://louispierre-andre.github.io/quiz-app/'>
                             <div className='img_box'>
-                                <img src={bg_portfolio5} alt='this is a porfolio image' />
+                                <img src={BG_PORTFOLIO3} alt='this is a porfolio image' />
                             </div>
                         </a>
                         <a target='blank' href='https://louispierre-andre.github.io/quiz-app/'>
