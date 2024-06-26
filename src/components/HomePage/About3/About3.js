@@ -34,7 +34,7 @@ function About3() {
               <div className='img_design'></div>
               <div className='img_design2'></div>
               <div className='img_box2'>
-                <img src={AboutImage} alt='this is a profil image' />
+                <img src={AboutImage} alt='this is my profil' />
               </div>
             </div>
 

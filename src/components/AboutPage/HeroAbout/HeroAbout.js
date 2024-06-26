@@ -41,10 +41,10 @@ function Hero_about({ title, hero_img }) {
                                 </div>
                             </div>
                             <div>
-                                <a target="_blank" href='https://www.linkedin.com/in/pierre-andr%C3%A9-louis-2b938224b/'><img className="fiverr_logo" src={LINKEDIN_LOGO} /></a>
-                                <a target="_blank" href="https://www.fiverr.com/webdeveloper_pr" > <img className="fiverr_logo" src={FIVER_LOGO} /></a>
-                                <a target="_blank" href='https://www.upwork.com/freelancers/~017c6fdbed2e590223' ><img className="upwork_logo" src={UPWORK_LOGO} /></a>
-                                <a target="_blank" href='https://wa.me/50946731710' ><img className="upwork_logo" src={WHATSAPP_LOGO} /></a>
+                                <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/pierre-andr%C3%A9-louis-2b938224b/'><img alt='this is a media logo' className="fiverr_logo" src={LINKEDIN_LOGO} /></a>
+                                <a target="_blank" rel="noreferrer" href="https://www.fiverr.com/webdeveloper_pr" > <img alt='this is a media logo' className="fiverr_logo" src={FIVER_LOGO} /></a>
+                                <a target="_blank" rel="noreferrer" href='https://www.upwork.com/freelancers/~017c6fdbed2e590223' ><img alt='this is a media logo' className="upwork_logo" src={UPWORK_LOGO} /></a>
+                                <a target="_blank" rel="noreferrer" href='https://wa.me/50946731710' ><img alt='this is a media logo' className="upwork_logo" src={WHATSAPP_LOGO} /></a>
                             </div>
                         </div>
                     </div>

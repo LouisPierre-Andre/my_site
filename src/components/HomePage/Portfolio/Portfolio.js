@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Portfolio.css"
 import QUIZ_APP from "./Images/quizeApp.png"
-import ECOMMERCE from "./Images/ecommerce.png"
+// import ECOMMERCE from "./Images/ecommerce.png"
 import MOVIE_APP from "./Images/movieApp.png"
 import HOTEL from './Images/hotel.png'
 import RESTAURANT from './Images/restaurant.png'
@@ -30,7 +30,7 @@ function Portfolio({ classs }) {
                         <div>
                             <a target='blank' href='https://louispierre-andre.github.io/Hotel/'>
                                 <div className='img_box'>
-                                    <img src={HOTEL} alt='This is an image of my project' />
+                                    <img src={HOTEL} alt='this is one of my projects' />
                                 </div>
                             </a>
                             <h3>Service Hôtel</h3>
@@ -39,7 +39,7 @@ function Portfolio({ classs }) {
                         <div>
                             <a target='blank' href='https://louispierre-andre.github.io/Transport/'>
                                 <div className='img_box'>
-                                    <img src={TRANSPORT} alt='This is an image of my project' />
+                                    <img src={TRANSPORT} alt='this is one of my projects' />
                                 </div>
                             </a>
                             <h3>Service de Transport</h3>
@@ -57,7 +57,7 @@ function Portfolio({ classs }) {
                         <div>
                             <a target='blank' href='https://louispierre-andre.github.io/portfolio1/'>
                                 <div className='img_box'>
-                                    <img src={WEBSITE1} alt='This is an image of my project' />
+                                    <img src={WEBSITE1} alt='this is one of my projects' />
                                 </div>
                             </a>
                             <h3>Portfolio Website</h3>
@@ -68,7 +68,7 @@ function Portfolio({ classs }) {
                         <div>
                             <a target='blank' href='https://louispierre-andre.github.io/portfolio3/'>
                                 <div className='img_box'>
-                                    <img src={WEBSITE3} alt='This is an image of my project' />
+                                    <img src={WEBSITE3} alt='this is one of my projects' />
                                 </div>
                             </a>
                             <h3>Portfolio Website</h3>
@@ -78,7 +78,7 @@ function Portfolio({ classs }) {
                         <div>
                             <a target='blank' href='https://louispierre-andre.github.io/portfolio4/'>
                                 <div className='img_box'>
-                                    <img src={WEBSITE4} alt='This is an image of my project' />
+                                    <img src={WEBSITE4} alt='this is one of my projects' />
                                 </div>
                             </a>
                             <h3>Portfolio Website</h3>
@@ -90,7 +90,7 @@ function Portfolio({ classs }) {
                         <div>
                             <a target='blank' href='https://louispierre-andre.github.io/portfolio2/'>
                                 <div className='img_box'>
-                                    <img src={WEBSITE2} alt='This is an image of my project' />
+                                    <img src={WEBSITE2} alt='this is one of my projects' />
                                 </div>
                             </a>
                             <h3>Portfolio Website</h3>
@@ -101,7 +101,7 @@ function Portfolio({ classs }) {
                         <div>
                             <a target='blank' href='https://LouisPierre-Andre.github.io/quiz-app'>
                                 <div className='img_box'>
-                                    <img src={QUIZ_APP} alt='This is an image of my project' />
+                                    <img src={QUIZ_APP} alt='this is one of my projects' />
                                 </div>
                             </a>
                             <h3>Application de Quiz</h3>
@@ -113,7 +113,7 @@ function Portfolio({ classs }) {
                         <div>
                             <a target='blank' href='https://LouisPierre-Andre.github.io/movie-trailer'>
                                 <div className='img_box'>
-                                    <img src={MOVIE_APP} alt='This is an image of my project' />
+                                    <img src={MOVIE_APP} alt='this is one of my projects' />
                                 </div>
                             </a>
                             <h3>Movie Trailer</h3>
@@ -123,7 +123,7 @@ function Portfolio({ classs }) {
                         <div>
                             <a target='blank' href='https://louispierre-andre.github.io/Restaurant/'>
                                 <div className='img_box'>
-                                    <img src={RESTAURANT} alt='This is an image of my project' />
+                                    <img src={RESTAURANT} alt='this is one of my projects' />
                                 </div>
                             </a>
                             <h3>Service de Restaurant</h3>

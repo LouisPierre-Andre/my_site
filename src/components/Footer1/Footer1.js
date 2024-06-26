@@ -49,10 +49,10 @@ function Footer1() {
                             <p>Phone: (+509) 4673-1710</p>
                         </div>
                         <div className='icon_section'>
-                            <a target="_blank" href='https://www.linkedin.com/in/pierre-andr%C3%A9-louis-3a64a6279/'><img className="fiverr_logo" src={linkedin_logo} /></a>
-                            <a target="_blank" href="https://www.fiverr.com/webdeveloper_pr" > <img className="fiverr_logo" src={fiver_logo} /></a>
-                            <a target="_blank" href='https://www.upwork.com/freelancers/~017c6fdbed2e590223' ><img className="upwork_logo" src={upwork_logo} /></a>
-                            <a target="_blank" href='https://wa.me/50946731710' ><img className="fiverr_logo" src={whatsapp_logo} /></a>
+                            <a target="_blank" rel="noreferrer" href='https://www.linkedin.com/in/pierre-andr%C3%A9-louis-3a64a6279/'><img alt='this is a media logo' className="fiverr_logo" src={linkedin_logo} /></a>
+                            <a target="_blank" rel="noreferrer" href="https://www.fiverr.com/webdeveloper_pr" > <img alt='this is a media logo' className="fiverr_logo" src={fiver_logo} /></a>
+                            <a target="_blank" rel="noreferrer" href='https://www.upwork.com/freelancers/~017c6fdbed2e590223' ><img alt='this is a media logo' className="upwork_logo" src={upwork_logo} /></a>
+                            <a target="_blank" rel="noreferrer" href='https://wa.me/50946731710' ><img alt='this is a media logo' className="fiverr_logo" src={whatsapp_logo} /></a>
                         </div>
                     </div>
 
@@ -76,17 +76,17 @@ function Footer1() {
                     <div className='block block4'>
                         <h2>Portfolio</h2>
                         <div className='images_section'>
-                            <a target='blank' href='https://louispierre-andre.github.io/Transport/'><img src={image1} alt='This is an image from our instagram account' /></a>
-                            <a target='blank' href='https://louispierre-andre.github.io/Hotel/'><img src={image2} alt='This is an image from our instagram account' /></a>
-                            <a target='blank' href='https://louispierre-andre.github.io/portfolio1/'><img src={image3} alt='This is an image from our instagram account' /></a>
-                            <a target='blank' href='https://louispierre-andre.github.io/portfolio2/'><img src={image4} alt='This is an image from our instagram account' /></a>
-                            <a target='blank' href='https://louispierre-andre.github.io/portfolio3/'><img src={image5} alt='This is an image from our instagram account' /></a>
-                            <a target='blank' href='https://louispierre-andre.github.io/portfolio4/'><img src={image6} alt='This is an image from our instagram account' /></a>
+                            <a target='blank' href='https://louispierre-andre.github.io/Transport/'><img src={image1} alt='this is one of my projects' /></a>
+                            <a target='blank' href='https://louispierre-andre.github.io/Hotel/'><img src={image2} alt='this is one of my projects' /></a>
+                            <a target='blank' href='https://louispierre-andre.github.io/portfolio1/'><img src={image3} alt='this is one of my projects' /></a>
+                            <a target='blank' href='https://louispierre-andre.github.io/portfolio2/'><img src={image4} alt='this is one of my projects' /></a>
+                            <a target='blank' href='https://louispierre-andre.github.io/portfolio3/'><img src={image5} alt='this is one of my projects' /></a>
+                            <a target='blank' href='https://louispierre-andre.github.io/portfolio4/'><img src={image6} alt='this is one of my projects' /></a>
                         </div>
                     </div>
                 </div>
 
-                <img className='image_bg' src={bg_image} />
+                <img alt='this is a background' className='image_bg' src={bg_image} />
             </div>
         </section>
     )

@@ -7,13 +7,13 @@ import WEBSITE2 from "./images/website2.PNG"
 import WEBSITE3 from "./images/website3.PNG"
 import WEBSITE4 from './images/website4.PNG'
 import BG_PORTFOLIO1 from "./images/hotel1.png"
-import BG_PORTFOLIO2 from "./images/transport.png"
-import BG_PORTFOLIO3 from './images/quizeApp.png'
+// import BG_PORTFOLIO2 from "./images/transport.png"
+// import BG_PORTFOLIO3 from './images/quizeApp.png'
 
 
 
 
-import hotel from './images/hotel2.png'
+// import hotel from './images/hotel2.png'
 
 function Portfolio4() {
     const handleClick = () => {
@@ -39,12 +39,12 @@ function Portfolio4() {
                 </div>
                 <main>
                     {/* <div className='portfolio1'>
-                        <a target='blank' href='https://louispierre-andre.github.io/Hotel/'>
+                        <a rel="noreferrer" target='blank' href='https://louispierre-andre.github.io/Hotel/'>
                             <div className='img_box'>
-                                <img src={BG_PORTFOLIO1} alt='this is a porfolio image' />
+                                <img src={BG_PORTFOLIO1} alt='this is one of my projects' />
                             </div>
                         </a>
-                        <a target='blank' href='https://louispierre-andre.github.io/Hotel/'>
+                        <a rel="noreferrer" target='blank' href='https://louispierre-andre.github.io/Hotel/'>
                             <div className='description'>
                                 <h4>Hotel service</h4>
                                 <p>Html, css, Javascript and React JS</p>
@@ -60,12 +60,12 @@ function Portfolio4() {
 
 
                     <div className='portfolio1'>
-                        <a target='blank' href='https://louispierre-andre.github.io/portfolio2/'>
+                        <a rel="noreferrer" target='blank' href='https://louispierre-andre.github.io/portfolio2/'>
                             <div className='img_box'>
-                                <img src={WEBSITE2} alt='this is a porfolio image' />
+                                <img src={WEBSITE2} alt='this is one of my projects' />
                             </div>
                         </a>
-                        <a target='blank' href='https://louispierre-andre.github.io/portfolio2/'>
+                        <a rel="noreferrer" target='blank' href='https://louispierre-andre.github.io/portfolio2/'>
                             <div className='description'>
                                 <h4>Site Web Portfolio</h4>
                                 <p>Html, css, Javascript and React JS</p>
@@ -75,12 +75,12 @@ function Portfolio4() {
 
 
                     <div className='portfolio1'>
-                        <a target='blank' href='https://louispierre-andre.github.io/portfolio3/'>
+                        <a rel="noreferrer" target='blank' href='https://louispierre-andre.github.io/portfolio3/'>
                             <div className='img_box'>
-                                <img src={WEBSITE3} alt='this is a porfolio image' />
+                                <img src={WEBSITE3} alt='this is one of my projects' />
                             </div>
                         </a>
-                        <a target='blank' href='https://louispierre-andre.github.io/portfolio3/'>
+                        <a rel="noreferrer" target='blank' href='https://louispierre-andre.github.io/portfolio3/'>
                             <div className='description'>
                                 <h4>Site Web Portfolio</h4>
                                 <p>Html, css, Javascript and React JS</p>
@@ -92,12 +92,12 @@ function Portfolio4() {
 
 
                     <div className='portfolio1'>
-                        <a target='blank' href='https://louispierre-andre.github.io/portfolio4/'>
+                        <a rel="noreferrer" target='blank' href='https://louispierre-andre.github.io/portfolio4/'>
                             <div className='img_box'>
-                                <img src={WEBSITE4} alt='this is a porfolio image' />
+                                <img src={WEBSITE4} alt='this is one of my projects' />
                             </div>
                         </a>
-                        <a target='blank' href='https://louispierre-andre.github.io/portfolio4/'>
+                        <a rel="noreferrer" target='blank' href='https://louispierre-andre.github.io/portfolio4/'>
                             <div className='description'>
                                 <h4>Site Web Portfolio</h4>
                                 <p>Html, css, Javascript and React JS</p>
@@ -108,12 +108,12 @@ function Portfolio4() {
 
 
                     <div className='portfolio1'>
-                        <a target='blank' href='https://louispierre-andre.github.io/portfolio1/'>
+                        <a rel="noreferrer" target='blank' href='https://louispierre-andre.github.io/portfolio1/'>
                             <div className='img_box'>
-                                <img src={WEBSITE1} alt='this is a porfolio image' />
+                                <img src={WEBSITE1} alt='this is one of my projects' />
                             </div>
                         </a>
-                        <a target='blank' href='https://louispierre-andre.github.io/portfolio1/'>
+                        <a rel="noreferrer" target='blank' href='https://louispierre-andre.github.io/portfolio1/'>
                             <div className='description'>
                                 <h4>Site Web Portfolio</h4>
                                 <p>Html, css, Javascript and React JS</p>
@@ -123,12 +123,12 @@ function Portfolio4() {
 
 
                     <div className='portfolio1'>
-                        <a target='blank' href='https://louispierre-andre.github.io/Hotel/'>
+                        <a rel="noreferrer" target='blank' href='https://louispierre-andre.github.io/Hotel/'>
                             <div className='img_box'>
-                                <img src={BG_PORTFOLIO1} alt='this is a porfolio image' />
+                                <img src={BG_PORTFOLIO1} alt='this is one of my projects' />
                             </div>
                         </a>
-                        <a target='blank' href='https://louispierre-andre.github.io/Hotel/'>
+                        <a rel="noreferrer" target='blank' href='https://louispierre-andre.github.io/Hotel/'>
                             <div className='description'>
                                 <h4>Hotel service</h4>
                                 <p>Html, css, Javascript and React JS</p>
@@ -142,12 +142,12 @@ function Portfolio4() {
 
 {/* 
                     <div className='portfolio1'>
-                        <a target='blank' href='https://louispierre-andre.github.io/Transport/'>
+                        <a rel="noreferrer" target='blank' href='https://louispierre-andre.github.io/Transport/'>
                             <div className='img_box'>
-                                <img src={BG_PORTFOLIO2} alt='this is a porfolio image' />
+                                <img src={BG_PORTFOLIO2} alt='this is one of my projects' />
                             </div>
                         </a>
-                        <a target='blank' href='https://louispierre-andre.github.io/Transport/'>
+                        <a rel="noreferrer" target='blank' href='https://louispierre-andre.github.io/Transport/'>
                             <div className='description'>
                                 <h4>Transport service</h4>
                                 <p>Html, css, Javascript and React JS</p>
@@ -160,12 +160,12 @@ function Portfolio4() {
 
 {/* 
                     <div className='portfolio1'>
-                        <a target='blank' href='https://louispierre-andre.github.io/quiz-app/'>
+                        <a rel="noreferrer" target='blank' href='https://louispierre-andre.github.io/quiz-app/'>
                             <div className='img_box'>
-                                <img src={BG_PORTFOLIO3} alt='this is a porfolio image' />
+                                <img src={BG_PORTFOLIO3} alt='this is one of my projects' />
                             </div>
                         </a>
-                        <a target='blank' href='https://louispierre-andre.github.io/quiz-app/'>
+                        <a rel="noreferrer" target='blank' href='https://louispierre-andre.github.io/quiz-app/'>
                             <div className='description'>
                                 <h4>Quiz Application</h4>
                                 <p>Html, css, Javascript and React JS</p>

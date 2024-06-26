@@ -6,7 +6,7 @@ import Service from './Services/Service5'
 import Service4 from './Service4/Service4'
 import Portfolio4 from "./Portfolio4/Portfolio4"
 import Process from './Process/Service2Process'
-import Contact from './Contact/Contact5'
+// import Contact from './Contact/Contact5'
 import Contact1 from './Contact1/Contact1'
 import Hero2 from './Hero2/Hero2'
 

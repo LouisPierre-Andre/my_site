@@ -30,7 +30,8 @@ function NavBar1() {
 
     window.addEventListener('scroll', checkPosition);
 
-    console.log(navBar)
+    console.log(navBar);
+    console.log(scrollPos);
 
 
     return (
