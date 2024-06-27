@@ -2,9 +2,9 @@ backend:
   name: git-gateway
   branch: main # Utilise la branche principale de ton dépôt
 
-media_folder: "static/media" # Emplacement où les images seront stockées
-public_folder: "/media"
-  
+media_folder: "static/img" # Emplacement où les images seront stockées
+public_folder: "/img"
+
 collections:
   - name: "blog"
     label: "Blog"
@@ -20,6 +20,7 @@ collections:
 
 
 
+
   # - name: "hero_content"  # Nom de votre collection
   #   label: "Hero Content"  # Label visible dans l'interface CMS
   #   folder: "src/components/hero"  # Chemin vers le dossier contenant hero.js
@@ -27,6 +28,10 @@ collections:
   #   fields:  # Définition des champs éditables dans le CMS
   #     - { name: "title", label: "Title", widget: "string" }  # Champ pour modifier le titre h1
   #     - { name: "subtitle", label: "Subtitle", widget: "string" }  # Champ pour modifier le sous-titre
+
+
+
+
 
   # - name: 'homepage'  # Nom de la collection
   #   label: 'Homepage'  # Étiquette affichée dans l'interface de Netlify CMS
