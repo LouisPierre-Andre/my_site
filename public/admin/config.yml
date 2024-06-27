@@ -42,4 +42,4 @@ collections:
   #     - { name: 'hero', label: 'Hero', widget: 'object', fields: [
   #         { name: 'heroTitle', label: 'Hero Title', widget: 'string' },
   #         { name: 'heroSubtitle', label: 'Hero Subtitle', widget: 'string' }
-  #       ]}
+  #          ]}
